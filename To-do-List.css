@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+}
+.add-button{
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.add-value, .add-date {
+    font-size: 15px;
+    padding: 6px;
+}
+.del-button{
+    border: none;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.todo-grid, .todo-input-grid{
+    display: grid;
+    /* below statement creates a grid of columns*/
+    grid-template-columns: 200px 150px 100px;
+    /* below statemnt puts the spacing blw columns of the grid */
+    column-gap: 10px;
+    /* add space bw rows */
+    row-gap: 10px;
+    /* to place items in center in grid  */
+    align-items: center;
+}
+.todo-input-grid{
+    margin-bottom: 10px;
+    align-items: stretch;
+}

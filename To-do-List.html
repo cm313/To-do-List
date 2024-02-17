@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         To-do-list
+        </title>
+        <link rel="stylesheet" href="CSS-style-files/To-do-List.css">
+    </head>
+    <body>
+        <p><b>Todo List</b></p>
+        <div class="todo-input-grid">
+         <input class = "add-value js-addValue" type = "text" placeholder ="enter data..." onkeydown ="onkeydownfun(event);">
+         <input class = "add-date js-addDate" type = "date">
+         <button class = "add-button" onclick="resultFun()">Add</button>
+         </div>
+         <div class = "js-displayTag  todo-grid"></div>
+         <script src="JS-script-files/To-do-List.js" >
+         </script>
+    </body>
+</html>
